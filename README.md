@@ -1,71 +1,81 @@
-Project Title: Amazon Prime Video Data Cleaning & Standardization
+# **Task 1: Amazon Prime Video Data Cleaning & Formatting**
 
-Task 1: MSME Data Analyst Internship 
+### **Internship: Data Analyst Internship (MSME)** 
 
+**📌 Project Overview**
 
-Project Overview
-This project focuses on the end-to-end data cleaning and formatting of the Amazon Prime Movies and TV Shows dataset. The raw dataset contained approximately 10,000 rows with several inconsistencies, including missing values, improper text casing, and mixed data types in numeric columns.
-
-
+The objective of this task was to perform end-to-end Data Cleaning and Standardization on the Amazon Prime Movies and TV Shows dataset. This project simulates a professional data pipeline where raw, messy data is transformed into a structured, analysis-ready format.
 
 
-Dataset Description
-
-Source: Kaggle (Amazon Prime Video Dataset).
 
 
-Size: ~10,000 rows.
+**🛠️ Tools Used**
 
-Key Columns: show_id, type, title, director, cast, country, date_added, release_year, rating, duration.
+Primary Tool: Google Sheets 
 
-Data Cleaning Steps Performed
-Initial Setup & Exploration:
+Version Control: GitHub 
 
-Applied Freeze Panes to the header row for easier navigation.
+**🧹 Data Cleaning Steps Performed**
+I followed a rigorous process to ensure the dataset meets professional standards:
 
-Enabled Filters across all columns to identify data patterns and outliers.
+**Data Exploration & Organization:**
 
-Handling Missing Values:
+Applied Freeze Panes to the header row for persistent visibility.
 
-Used Conditional Formatting to highlight blank cells in the director, cast, and country columns.
+Enabled Filters on all columns to identify missing values and inconsistencies.
+
+Handling Missing Values & Imputation:
+
+Identified blank cells using Conditional Formatting.
 
 
-Decision: Imputed missing values with "Not Mentioned" to ensure data consistency without losing valuable rows.
 
-Removing Duplicates:
+Decision: Replaced missing entries in critical columns (like director and cast) with "Not Mentioned" to maintain data integrity.
 
-Created a backup of the raw data.
 
-Used the Remove Duplicates tool based on the show_id and title columns to ensure each entry is unique.
+Deduplication:
+
+Created a backup tab to prevent irreversible data loss.
+
+Removed duplicate rows based on unique identifiers (show_id and title).
 
 Text Standardization:
 
-Applied =TRIM() to remove leading and trailing spaces.
+Used the TRIM function to remove leading and trailing spaces.
 
 
-Applied =PROPER() to the title, director, and cast columns to fix inconsistent capitalization (e.g., "john doe" to "John Doe").
+Applied PROPER and UPPER functions to fix inconsistent capitalization in titles and names.
 
-Data Validation & Formatting:
+Format Validation:
 
-
-Date Format: Standardized the date_added column to the YYYY-MM-DD format.
-
-
-Duration Column: Split mixed data (e.g., "90 min" and "2 Seasons") into separate Value and Unit columns.
+Standardized the date_added column into the YYYY-MM-DD format.
 
 
-Numeric Cleaning: Removed text suffixes (like "min") to convert duration values into pure numeric data types for analysis.
+Numeric Cleaning: Split the duration column into numeric values and units (min/seasons) to allow for mathematical analysis.
 
-Final Deliverables
-The repository contains the following required files:
-
-
-
-Raw_Data.xlsx: The original, untouched dataset as downloaded from Kaggle.
+📂 Final Deliverables
+This repository contains the following files as required by the task guidelines:
 
 
-Cleaned_dataset.xlsx: The final Excel workbook containing two tabs: Raw_Data and Cleaned_Data (which includes the Data_Quality_Notes column).
+Raw_Data.xlsx: The original, untouched dataset.
 
 
+Cleaned_dataset.xlsx: The final Excel workbook containing the Raw_Data and Cleaned_Data sheets.
 
-cleaned_dataset.csv: A clean, comma-separated version of the final output for use in future data analysis pipelines.
+
+cleaned_dataset.csv: A clean, flat-file export of the final processed data.
+
+🧠 Analyst Thinking: Data Quality Notes
+A dedicated Data_Quality_Notes column was added to the final sheet to document transformations. Key notes include:
+
+
+"Missing values imputed with 'Not Mentioned'." 
+
+
+"Standardized text casing and removed extra whitespace." 
+
+
+"Converted duration string to numeric value for calculation." 
+
+
+Final Outcome: Produced a clean, structured dataset ready for professional-grade analysis.
