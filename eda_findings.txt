@@ -1,0 +1,7 @@
+Insight 1: The average student performance index is steady, but outliers indicate extreme cases of underperformance.
+
+
+Insight 2: Outliers were identified using the IQR method to ensure the final report represents the typical student body.
+
+
+Insight 3: There is a visible correlation between Hours Studied and the Performance Index
