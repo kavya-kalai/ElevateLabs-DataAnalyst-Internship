@@ -1,0 +1,3 @@
+Group,Sample_Size,Mean_Sales,T_Statistic,P_Value
+Promotion 1,172,58.1,1.86,0
+Promotion 2,188,47.33,1.86,0.032

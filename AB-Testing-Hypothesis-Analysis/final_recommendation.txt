@@ -1,0 +1,20 @@
+A/B TEST FINAL REPORT & RECOMMENDATION
+Internship: Data Analyst (MSME)
+
+1. HYPOTHESIS DEFINITION
+- Null Hypothesis (H0): There is no significant difference in the mean SalesInThousands between the promotion groups.
+- Alternative Hypothesis (H1): There is a statistically significant difference in mean SalesInThousands between the promotion groups.
+- Significance Level (Alpha): 0.05
+
+2. STATISTICAL FINDINGS
+- Group A (Promotion 1) Mean Sales: [Paste your Promotion 1 mean here]
+- Group B (Promotion 2) Mean Sales: [Paste your Promotion 2 mean here]
+- Calculated P-Value: [Paste your p-value here]
+
+3. INTERPRETATION
+- Based on the alpha of 0.05, the result is [choose one: Statistically Significant / Not Statistically Significant].
+- Since the p-value is [choose one: less than / greater than] 0.05, we [choose one: Reject / Fail to Reject] the Null Hypothesis.
+
+4. BUSINESS RECOMMENDATION
+- Verdict: [Example: Promotion 1 is the winner].
+- Recommendation: Based on the statistical evidence, we recommend [Promotion X] for a full-scale rollout. This decision is backed by data, ensuring that the increase in sales is not due to random chance but to the effectiveness of the marketing strategy.
