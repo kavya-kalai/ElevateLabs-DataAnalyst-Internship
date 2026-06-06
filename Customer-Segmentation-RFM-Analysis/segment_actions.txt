@@ -1,0 +1,21 @@
+BUSINESS ACTION PLAN: RFM SEGMENTATION
+Project: Task 15 - Customer Segmentation (E-commerce)
+Date: February 16, 2026
+
+1. SEGMENT: CHAMPIONS (Score: 555)
+These are your best customers who bought recently, buy often, and spend the most.
+- Action 1: Enroll them in a VIP Loyalty Program with exclusive early access to new product launches.
+- Action 2: Send personalized 'Thank You' notes or small surprise gifts with their next order to increase brand affinity.
+- Action 3: Ask for reviews or referrals, as they are the most likely to be brand advocates.
+
+2. SEGMENT: LOYAL CUSTOMERS (High Frequency & Monetary)
+These customers buy regularly and contribute significantly to revenue.
+- Action 1: Use 'Upselling' strategies—recommend higher-value versions of products they already buy.
+- Action 2: Offer 'Bundle Discounts' (e.g., Buy 3, Get 1 Free) to keep their purchase frequency high.
+- Action 3: Provide a dedicated customer support channel to ensure they remain satisfied.
+
+3. SEGMENT: AT RISK / HIBERNATING (Low Recency & Frequency)
+These customers haven't made a purchase in a long time and are likely to stop using the platform.
+- Action 1: Send a 'We Miss You' email with a high-value discount code (e.g., 20-30% off) to encourage a return.
+- Action 2: Launch a 'Win-back' survey to understand why they stopped purchasing (price, quality, or service issues).
+- Action 3: Show them personalized 'New Arrivals' based on their past purchase history to reignite interest.
