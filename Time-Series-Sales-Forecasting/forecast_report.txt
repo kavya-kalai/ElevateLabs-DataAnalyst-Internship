@@ -1,0 +1,24 @@
+TIME SERIES FORECASTING REPORT
+Project: Task 16 - Sales Trend & Prediction
+
+1. DATA SUMMARY
+- Dataset: E-commerce Sales Dataset[cite: 208].
+- Time Grain: Daily aggregation of total sales revenue (Final_Price Rs.)[cite: 213].
+- Period Analyzed: All historical records available in the dataset.
+
+2. TREND OBSERVATION
+- Overall Trend: The sales trend shows a [choose one: Steady Increase / Steady Decrease / Flat Pattern]. 
+- Peaks & Troughs: Frequent spikes were observed, which may indicate specific high-sales days or promotional periods[cite: 214].
+
+3. SEASONALITY & NOISE
+- Moving Average Insight: Using a 7-day rolling mean, we identified that the underlying trend is [choose one: smoother than the daily data / showing weekly cycles][cite: 215].
+- Seasonality: There appears to be a [choose one: Weekly / No clear] seasonal pattern in customer purchasing behavior[cite: 228].
+
+4. FORECASTING MODEL
+- Model Used: Simple Exponential Smoothing[cite: 217].
+- Forecast Horizon: 7 Days[cite: 218].
+- Key Finding: The model predicts that sales in the upcoming week will average approximately [Insert average from your forecast_output.csv] per day.
+
+5. BUSINESS RECOMMENDATION
+- Inventory Planning: Based on the 7-day forecast, stock levels should be [choose one: Maintained / Increased / Reduced] to match expected demand.
+- Marketing Strategy: If the forecast shows a decline, a targeted promotion should be launched to reactivate customer interest.
