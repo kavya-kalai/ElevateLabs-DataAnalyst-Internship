@@ -1,0 +1,24 @@
+FINAL PROJECT REPORT: MOVIE SUCCESS PREDICTION & SENTIMENT STUDY
+Project Focus: Data-Driven Analytics in the Film Industry
+
+1. PROJECT OBJECTIVE
+The goal of this study was to analyze the relationship between movie descriptions (sentiment) and their eventual commercial success (revenue and ratings). By quantifying "hype" and emotional tone, we aimed to build a predictive model for the box office.
+
+2. DATA CLEANING & PREPARATION
+- Dataset: IMDB Movie Dataset (1,000 entries).
+- Missing Values: Addressed missing data in 'Revenue (Millions)' and 'Metascore' using median and mean imputation to maintain data integrity.
+- Standardized: Column names were converted to snake_case (e.g., 'revenue_millions') to ensure code stability.
+
+3. SENTIMENT ANALYSIS FINDINGS (VADER)
+- Tool Used: NLTK VADER Sentiment Intensity Analyzer.
+- Process: Analyzed the 'description' column to generate a compound score between -1 and 1.
+- Key Insight: Animation and Comedy genres tended to have higher positive sentiment scores, while Horror and Thriller descriptions were naturally more negative.
+
+4. PREDICTIVE MODELING RESULTS
+- Model: Linear Regression.
+- Features: Votes, Rating, Metascore, and Sentiment Score.
+- Performance: The model achieved an R-squared score of [Insert your R2 score here], indicating a [Moderate/Strong] correlation between the selected features and revenue.
+
+5. FINAL BUSINESS RECOMMENDATION
+- Sentiment as a Feature: Positive sentiment in marketing descriptions shows a positive correlation with higher IMDB ratings, though 'Votes' remains the strongest predictor of revenue.
+- Strategy: Studios should focus on optimizing promotional text to trigger high-positivity sentiment scores in early marketing materials to boost audience interest.
